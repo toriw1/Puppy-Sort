@@ -80,11 +80,6 @@ public class Puppy {
         this.sex = puppySex[randomSex];
     }
 
-    // constructor that just has a weight
-    public Puppy(double weight) {
-        this.weight = weight;
-    }
-
     // getters
     public String getName() {
         return name;
