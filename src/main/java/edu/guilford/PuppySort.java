@@ -25,11 +25,11 @@ public class PuppySort {
         for (int i = 0; i < numPuppies; i++) {
             puppies[i] = new Puppy();
         }
-        // // print the array of puppies
-        // System.out.println("\nHere are the puppies you created:");
-        // for (int i = 0; i < numPuppies; i++) {
-        //     System.out.println(puppies[i]);
-        // }
+        // print the array of puppies
+        System.out.println("\nHere are the puppies you created:");
+        for (int i = 0; i < numPuppies; i++) {
+            System.out.println(puppies[i]);
+        }
 
         // sort the array of puppies using the selection sort algorithm and time it
         startTime = System.nanoTime();
@@ -39,10 +39,10 @@ public class PuppySort {
         // print the duration of the sort
         System.out.println("\nSelectionSort took " + smallFormatter.format(duration / 1.e6)
                 + " milliseconds");
-        // System.out.println("\nHere are the puppies sorted by weight using selection sort:");
-        // for (int i = 0; i < numPuppies; i++) {
-        //     System.out.println(puppies[i]);
-        // }
+        System.out.println("\nHere are the puppies sorted by weight using selection sort:");
+        for (int i = 0; i < numPuppies; i++) {
+            System.out.println(puppies[i]);
+        }
 
         // shuffle the array of puppies using the shuffle method
         shuffle(puppies);
@@ -54,10 +54,10 @@ public class PuppySort {
         duration = endTime - startTime;
         // print the duration of the sort
         System.out.println("\nQuickSort took " + smallFormatter.format(duration / 1.e6) + " milliseconds");
-        // System.out.println("\nHere are the puppies sorted by weight using quick sort:");
-        // for (int i = 0; i < numPuppies; i++) {
-        //     System.out.println(puppies[i]);
-        // }
+        System.out.println("\nHere are the puppies sorted by weight using quick sort:");
+        for (int i = 0; i < numPuppies; i++) {
+            System.out.println(puppies[i]);
+        }
 
         // shuffle the array of puppies using the shuffle method
         shuffle(puppies);
@@ -70,8 +70,8 @@ public class PuppySort {
         duration = endTime - startTime;
         // print the duration of the search
         System.out.println("\nLinearSearch took " + smallFormatter.format(duration / 1.e6) + " milliseconds");
-        //System.out.println("\nHere is the puppy you searched for using linear search:");
-        //System.out.println(puppies[linearIndex]);
+        System.out.println("\nHere is the puppy you searched for using linear search:");
+        System.out.println(puppies[linearIndex]);
 
         // use the binary search algorithm to find a random puppy and time it
         // first, sort the array of puppies using the quick sort algorithm
@@ -83,8 +83,8 @@ public class PuppySort {
         duration = endTime - startTime;
         // print the duration of the search
         System.out.println("\nBinarySearch took " + smallFormatter.format(duration / 1.e6) + " milliseconds");
-        //System.out.println("\nHere is the puppy you searched for using binary search:");
-        //System.out.println(puppies[binaryIndex]);
+        System.out.println("\nHere is the puppy you searched for using binary search:");
+        System.out.println(puppies[binaryIndex]);
     }
 
     // add a static selectionSort method that takes an array of Puppy objects as a
