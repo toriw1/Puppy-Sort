@@ -1,0 +1,47 @@
+How many puppies would you like to create?
+10
+
+Here are the puppies you created:
+Name: Duke, Size: Medium, Weight: 26.08, Age: 10, Breed: German Shepherd, Color: White, Fur Type: Short, Spots: true, Sex: Male
+Name: Harley, Size: Large, Weight: 81.72, Age: 9, Breed: German Shepherd, Color: Black, Fur Type: Long, Spots: true, Sex: Male
+Name: Molly, Size: Large, Weight: 79.11, Age: 15, Breed: Labrador Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+Name: Harley, Size: Large, Weight: 56.58, Age: 5, Breed: Chihuahua, Color: Black, Fur Type: Short, Spots: true, Sex: Male
+Name: Lola, Size: Small, Weight: 1.81, Age: 10, Breed: Bulldog, Color: Brown, Fur Type: Long, Spots: true, Sex: Male
+Name: Luna, Size: Medium, Weight: 48.72, Age: 0, Breed: Golden Retriever, Color: Red, Fur Type: Short, 
+Spots: false, Sex: Male
+Name: Harley, Size: Medium, Weight: 53.14, Age: 13, Breed: Rottweiler, Color: Brown, Fur Type: Long, Spots: false, Sex: Female
+Name: Buddy, Size: Large, Weight: 60.62, Age: 6, Breed: German Shepherd, Color: Brown, Fur Type: Short, Spots: false, Sex: Female
+Name: Lucy, Size: Small, Weight: 10.77, Age: 10, Breed: Poodle, Color: Brown, Fur Type: Short, Spots: true, Sex: Female
+Name: Charlie, Size: Medium, Weight: 46.39, Age: 3, Breed: Golden Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+
+Here are the puppies sorted by weight using selection sort:
+Name: Lola, Size: Small, Weight: 1.81, Age: 10, Breed: Bulldog, Color: Brown, Fur Type: Long, Spots: true, Sex: Male
+Name: Lucy, Size: Small, Weight: 10.77, Age: 10, Breed: Poodle, Color: Brown, Fur Type: Short, Spots: true, Sex: Female
+Name: Duke, Size: Medium, Weight: 26.08, Age: 10, Breed: German Shepherd, Color: White, Fur Type: Short, Spots: true, Sex: Male
+Name: Charlie, Size: Medium, Weight: 46.39, Age: 3, Breed: Golden Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+Name: Luna, Size: Medium, Weight: 48.72, Age: 0, Breed: Golden Retriever, Color: Red, Fur Type: Short, 
+Spots: false, Sex: Male
+Name: Harley, Size: Medium, Weight: 53.14, Age: 13, Breed: Rottweiler, Color: Brown, Fur Type: Long, Spots: false, Sex: Female
+Name: Harley, Size: Large, Weight: 56.58, Age: 5, Breed: Chihuahua, Color: Black, Fur Type: Short, Spots: true, Sex: Male
+Name: Buddy, Size: Large, Weight: 60.62, Age: 6, Breed: German Shepherd, Color: Brown, Fur Type: Short, Spots: false, Sex: Female
+Name: Molly, Size: Large, Weight: 79.11, Age: 15, Breed: Labrador Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+Name: Harley, Size: Large, Weight: 81.72, Age: 9, Breed: German Shepherd, Color: Black, Fur Type: Long, Spots: true, Sex: Male
+
+Here are the puppies sorted by weight using quick sort:
+Name: Lola, Size: Small, Weight: 1.81, Age: 10, Breed: Bulldog, Color: Brown, Fur Type: Long, Spots: true, Sex: Male
+Name: Lucy, Size: Small, Weight: 10.77, Age: 10, Breed: Poodle, Color: Brown, Fur Type: Short, Spots: true, Sex: Female
+Name: Duke, Size: Medium, Weight: 26.08, Age: 10, Breed: German Shepherd, Color: White, Fur Type: Short, Spots: true, Sex: Male
+Name: Charlie, Size: Medium, Weight: 46.39, Age: 3, Breed: Golden Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+Name: Luna, Size: Medium, Weight: 48.72, Age: 0, Breed: Golden Retriever, Color: Red, Fur Type: Short, 
+Spots: false, Sex: Male
+Name: Harley, Size: Medium, Weight: 53.14, Age: 13, Breed: Rottweiler, Color: Brown, Fur Type: Long, Spots: false, Sex: Female
+Name: Harley, Size: Large, Weight: 56.58, Age: 5, Breed: Chihuahua, Color: Black, Fur Type: Short, Spots: true, Sex: Male
+Name: Buddy, Size: Large, Weight: 60.62, Age: 6, Breed: German Shepherd, Color: Brown, Fur Type: Short, Spots: false, Sex: Female
+Name: Molly, Size: Large, Weight: 79.11, Age: 15, Breed: Labrador Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+Name: Harley, Size: Large, Weight: 81.72, Age: 9, Breed: German Shepherd, Color: Black, Fur Type: Long, Spots: true, Sex: Male
+
+Here is the puppy you searched for using linear search:
+Name: Charlie, Size: Medium, Weight: 46.39, Age: 3, Breed: Golden Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
+
+Here is the puppy you searched for using binary search:
+Name: Charlie, Size: Medium, Weight: 46.39, Age: 3, Breed: Golden Retriever, Color: Red, Fur Type: Short, Spots: true, Sex: Female
